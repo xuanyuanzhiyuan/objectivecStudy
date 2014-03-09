@@ -7,6 +7,7 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "BlockDemo.h"
 
 int main(int argc, const char * argv[])
 {
@@ -16,6 +17,10 @@ int main(int argc, const char * argv[])
         // insert code here...
         NSLog(@"Hello, World!");
         
+        BlockDemo* demo = [BlockDemo new];
+        [demo demoBlockReadVar];
+        //[demo demoBlock];
+        [demo iterateUseBlock];
     }
     return 0;
 }

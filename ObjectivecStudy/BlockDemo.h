@@ -1,5 +1,5 @@
 //
-//  TalkingProtocol.h
+//  BlockDemo.h
 //  ObjectivecStudy
 //
 //  Created by  Jinyanhua on 14-3-9.
@@ -8,8 +8,7 @@
 
 #import <Foundation/Foundation.h>
 
-@protocol TalkingProtocol
--(NSString *) getTalkPersonName:(NSString*) name;
-@optional
--(NSNumber *) getConversationPersons;
+@interface BlockDemo : NSObject
+-(void) demoBlockReadVar;
+-(void) iterateUseBlock;
 @end

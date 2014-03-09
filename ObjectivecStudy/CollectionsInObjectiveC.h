@@ -1,5 +1,5 @@
 //
-//  TalkingProtocol.h
+//  CollectionsInObjectiveC.h
 //  ObjectivecStudy
 //
 //  Created by  Jinyanhua on 14-3-9.
@@ -8,8 +8,6 @@
 
 #import <Foundation/Foundation.h>
 
-@protocol TalkingProtocol
--(NSString *) getTalkPersonName:(NSString*) name;
-@optional
--(NSNumber *) getConversationPersons;
+@interface CollectionsInObjectiveC : NSObject
+
 @end
