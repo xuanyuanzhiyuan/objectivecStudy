@@ -9,5 +9,16 @@
 #import "Person.h"
 
 @implementation Person
+-(void) sayHello:(NSString *)talk2PersonName
+{
+    NSLog(@"hello world");
+}
 
+-(void) displayAge{
+    
+}
+
+-(NSString *)getTalkPersonName:(NSString*) name{
+    return @"hello";
+}
 @end

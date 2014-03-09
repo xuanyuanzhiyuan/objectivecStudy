@@ -7,7 +7,12 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "TalkingProtocol.h"
 
-@interface Person : NSObject
-
+@interface Person : NSObject <TalkingProtocol>
+@property NSString *name;
+@property NSString *email;
+@property NSNumber *birthOfYear;
+@property(atomic,readonly) NSString *ID;
+-(void) sayHello:(NSString *) talk2PersonName;
 @end
